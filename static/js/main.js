@@ -25,11 +25,21 @@ MEMES = [
   },
 ]
 
+var oldMeme = -1;
+
 $(document).ready(function() {
   ({
     selectMeme: function () {
       var meme_count = MEMES.length;
-      var i = Math.floor(Math.random() * meme_count);
+      var i;
+      while (true) {
+        console.log(oldMeme, i);
+        i = Math.floor(Math.random() * meme_count);
+        if (i != oldMeme) {
+          oldMeme = i;
+          break;
+        }
+      }
       var meme = MEMES[i];
       console.log(meme);
       if (meme.type == "img") {
@@ -39,6 +49,7 @@ $(document).ready(function() {
     setup: function() {
       this.selectMeme();
       $(".another").click(this.selectMeme);
+      return false;
     }
   }).setup();
 
