@@ -26,6 +26,10 @@ MEMES = [
   {
     type: "webm",
     url: "/static/img/ohgodwhat.webm"
+  },
+  {
+    type: "img",
+    url: "/static/img/blake.gif"
   }
 ]
 
