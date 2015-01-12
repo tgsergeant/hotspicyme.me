@@ -18,6 +18,7 @@ $(document).ready(function() {
     },
     setup: function() {
       this.selectMeme();
+      $(".another").click(this.selectMeme);
     }
   }).setup();
 
