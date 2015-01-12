@@ -30,6 +30,18 @@ MEMES = [
   {
     type: "img",
     url: "/static/img/blake.gif"
+  },
+  {
+    type: "img",
+    url: "/static/img/callan.gif"
+  },
+  {
+    type: "img",
+    url: "/static/img/octotim.gif"
+  },
+  {
+    type: "img",
+    url: "/static/img/backstreet.jpg"
   }
 ]
 
