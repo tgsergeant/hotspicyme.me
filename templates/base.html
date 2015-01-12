@@ -7,6 +7,7 @@
 
     <link rel="shortcut icon" href="{{ STATIC_URL }}/favicon.ico">
     <link rel="stylesheet" href="{{ STATIC_URL }}/css/style.css">
+    <link rel="stylesheet" href="{{ STATIC_URL }}/css/spice.css">
 
     {% block header %}
     <title>your number one web content portal for hot and spicy memes</title>
@@ -18,9 +19,15 @@
       {% block content %}
       {% endblock %}
     </div>
+    <div class="spice animated" style="display:none;">
+        <img class="chilli" src="{{ STATIC_URL }}/img/chilli.png" />
+    </div>
+    <div class="flames">
+    </div>
     {% block scripts %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ STATIC_URL }}/js/main.js"></script>
+    <script src="{{ STATIC_URL }}/js/spice.js"></script>
     {% endblock %}
   </body>
 </html>

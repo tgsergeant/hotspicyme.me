@@ -1,0 +1,57 @@
+
+img.chilli {
+    width: 100px;
+    height: 200px;
+}
+
+div.spice {
+    position: fixed;
+    left: 0px;
+    width: 100px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    pointer-events: none;
+
+    -webkit-animation-name: sale;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+
+    -moz-animation-name: sale;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 5s;
+    -moz-animation-name: sale;
+
+    animation-name: sale;
+}
+
+@-moz-keyframes sale {
+    0% {
+        top: 0%
+    }
+    100% {
+        top: 100%;
+    }
+} 
+
+@-webkit-keyframes sale {
+    0% {
+        top: 0%
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+
+div.flames {
+    position: fixed;
+    height: 96px;
+    width: 100%;
+    bottom: 0;
+    background-image: url("/static/img/flame.gif");
+    background-repeat: repeat-x;
+}
