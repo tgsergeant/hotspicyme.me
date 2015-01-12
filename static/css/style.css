@@ -12,7 +12,7 @@ body {
   margin-bottom: 100px;
 }
 
-.meme-inner img {
+.meme-inner .meme-thing {
   width: 94%;
   margin: 3%;
 }
