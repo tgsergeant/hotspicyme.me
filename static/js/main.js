@@ -3,6 +3,26 @@ MEMES = [
     type: "img",
     url: "/static/img/curran.jpg"
   },
+  {
+    type: "img",
+    url: "/static/img/jamespaper.jpg"
+  },
+  {
+    type: "img",
+    url: "/static/img/jamesfreelancer.jpg"
+  },
+  {
+    type: "img",
+    url: "/static/img/kneecappingnicky.jpg"
+  },
+  {
+    type: "img",
+    url: "/static/img/jamesballpit.jpg"
+  },
+  {
+    type: "img",
+    url: "/static/img/thomasmouse.jpg"
+  },
 ]
 
 $(document).ready(function() {
