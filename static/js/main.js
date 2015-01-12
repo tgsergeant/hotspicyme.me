@@ -41,7 +41,7 @@ MEMES = [
   },
   {
     type: "img",
-    url: "/static/img/backstreet.jpg"
+    url: "/static/img/backstreet.gif"
   }
 ]
 
