@@ -45,6 +45,10 @@ MEMES = [
   },
   {
     type: "img",
+    url: "/static/img/nyan.gif"
+  },
+  {
+    type: "img",
     url: "/static/img/wrongdoing.jpg"
   }
 ]
