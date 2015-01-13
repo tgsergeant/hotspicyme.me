@@ -75,11 +75,11 @@ $(document).ready(function() {
       var meme = MEMES[i];
       console.log(meme);
       if (meme.type == "img") {
-        $(".meme-inner").html("<img class='meme-thing' src='" + meme.url + "' />");
+        $(".meme-inner").html("<img class='meme-thing' src='" + meme.url + "' />").click(this.selectMeme);
       }
 
       if (meme.type == "webm") {
-        $(".meme-inner").html("<video class='meme-thing' src='" + meme.url + "' autoplay loop='true'>your browser doesn't support this sweet mp4 file</video>");
+        $(".meme-inner").html("<video class='meme-thing' src='" + meme.url + "' autoplay loop='true'>your browser doesn't support this sweet mp4 file</video>").click(this.selectMeme);
       }
       return false;
     },

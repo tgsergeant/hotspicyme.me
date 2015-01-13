@@ -15,6 +15,7 @@ body {
 .meme-inner .meme-thing {
   width: 94%;
   margin: 3%;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
