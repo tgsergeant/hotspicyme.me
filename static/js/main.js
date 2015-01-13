@@ -51,6 +51,10 @@ MEMES = [
     type: "img",
     url: "/static/img/wrongdoing.jpg"
   }
+  {
+    type: "img",
+    url: "/static/img/burnoutparadise.gif"
+  }
 ]
 
 var oldMeme = -1;
