@@ -12,10 +12,13 @@ $(document).ready(function() {
         var interval = 800;
         var numSales = 0;
 
+        var pageWidth = $('body').width();
+        var maxSales = (pageWidth/100)
         var addSale = function() {
-
-            var pageWidth = $('body').width();
-            var maxSales = (pageWidth/100)
+            console.log(maxSales)
+            if (numSales >= maxSales) {
+                return;
+            }
             var xPos = getRandomInt(0, pageWidth);
 
             // Just copy the hidden box we had at page load time to make a new box.
@@ -40,6 +43,10 @@ $(document).ready(function() {
         }, 500);
 
         window.setTimeout(addSale, 2*1000);
+
+        $(".another").click(function() {
+            maxSales += 10;
+        });
 
     };
 
