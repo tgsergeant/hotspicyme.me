@@ -61,6 +61,10 @@ MEMES = [
   },
   {
     type: "img",
+    url: "/static/img/hammer1.gif"
+  },
+  {
+    type: "img",
     url: "/static/img/wrongdoing.jpg"
   },
   {
