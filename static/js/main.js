@@ -49,6 +49,10 @@ MEMES = [
   },
   {
     type: "img",
+    url: "/static/img/chocolatefrosting.gif"
+  },
+  {
+    type: "img",
     url: "/static/img/nickyreneedance.gif"
   },
   {
@@ -58,6 +62,10 @@ MEMES = [
   {
     type: "img",
     url: "/static/img/wrongdoing.jpg"
+  },
+  {
+    type: "img",
+    url: "/static/img/hangouts.jpg"
   },
   {
     type: "img",
