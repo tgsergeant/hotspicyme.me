@@ -65,6 +65,10 @@ MEMES = [
   },
   {
     type: "img",
+    url: "/static/img/20years.gif"
+  },
+  {
+    type: "img",
     url: "/static/img/wrongdoing.jpg"
   },
   {
