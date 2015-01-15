@@ -49,6 +49,14 @@ MEMES = [
   },
   {
     type: "img",
+    url: "/static/img/nickyreneedance.gif"
+  },
+  {
+    type: "img",
+    url: "/static/img/smeritymurder.gif"
+  },
+  {
+    type: "img",
     url: "/static/img/wrongdoing.jpg"
   },
   {
