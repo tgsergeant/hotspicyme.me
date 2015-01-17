@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="{{ STATIC_URL }}/favicon.ico">
-    <link rel="stylesheet" href="{{ STATIC_URL }}/css/style.css">
-    <link rel="stylesheet" href="{{ STATIC_URL }}/css/spice.css">
+    <link rel="shortcut icon" href="{% static '/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/spice.css' %}">
     <meta name="theme-color" content="#ECFFBE">
 
     {% block header %}
@@ -22,14 +22,14 @@
       {% endblock %}
     </div>
     <div class="spice animated" style="display:none;">
-        <img class="chilli" src="{{ STATIC_URL }}/img/chilli.png" />
+      <img class="chilli" src="{% static '/img/chilli.png' %}" />
     </div>
     <div class="flames">
     </div>
     {% block scripts %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="{{ STATIC_URL }}/js/main.js"></script>
-    <script src="{{ STATIC_URL }}/js/spice.js"></script>
+    <script src="{% static '/js/main.js' %}"></script>
+    <script src="{% static '/js/spice.js' %}"></script>
     {% endblock %}
     <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

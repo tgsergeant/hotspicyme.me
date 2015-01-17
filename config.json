@@ -1,0 +1,9 @@
+{
+    "aws-access-key": "AKIAJN4GC7U26AW6BFWA",
+    "aws-bucket-name": "hotspicyme.me",
+    "aws-bucket-website": "hotspicyme.me.s3-website-ap-southeast-2.amazonaws.com",
+    "fingerprint": [
+        "js",
+        "css"
+    ]
+}
