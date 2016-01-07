@@ -13,6 +13,11 @@ body {
   margin-bottom: 100px;
 }
 
+.extraspice .main {
+  animation: reversespin infinite 5s;
+  animation-timing-function: linear;
+}
+
 .meme-inner .meme-thing {
   width: 94%;
   margin: 3%;
@@ -43,4 +48,14 @@ body {
 
 .seriously-tho img {
   vertical-align: middle;
+}
+
+@keyframes reversespin {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }

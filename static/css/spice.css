@@ -28,7 +28,11 @@ div.spice {
     animation-name: sale;
 }
 
-@-moz-keyframes sale {
+.extraspice div.spice {
+    animation-name: spicysale;
+}
+
+@keyframes sale {
     0% {
         top: 0%
     }
@@ -37,12 +41,15 @@ div.spice {
     }
 } 
 
-@-webkit-keyframes sale {
+@keyframes spicysale {
     0% {
-        top: 0%
+        top: 0%;
+        transform: rotate(0deg);
     }
+
     100% {
         top: 100%;
+        transform: rotate(360deg);
     }
 }
 

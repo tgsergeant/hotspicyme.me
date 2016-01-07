@@ -45,6 +45,24 @@ $(document).ready(function() {
     setup: function() {
       this.selectMeme();
       $(".another").click(this.selectMeme);
+
+      // nothing to see here.
+      var codes = [109, 101, 109, 101, 115];
+      var pos = 0;
+
+      document.addEventListener('keypress', function(e) {
+        // grumble grumble KeyboardEvent is such a mess grumble.
+        var key = e.keyCode || e.charCode;
+        if (key == codes[pos]) {
+          pos++;
+        } else {
+          pos = 0;
+        }
+
+        if (pos == codes.length) {
+          document.documentElement.classList.add('extraspice');
+        }
+      });
       return false;
     }
   }).setup();
