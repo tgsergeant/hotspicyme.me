@@ -45,7 +45,8 @@ $(document).ready(function() {
         window.setTimeout(addSale, 2*1000);
 
         $(".another").click(function() {
-            maxSales += 10;
+            maxSales += 5;
+            addSale();
         });
 
     };
