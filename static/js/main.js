@@ -1,11 +1,17 @@
 MEMES = [
   "/static/img/20years.gif",
+  "/static/img/anondrag.gif",
   "/static/img/backstreet.gif",
   "/static/img/blake.gif",
+  "/static/img/boombox.gif",
   "/static/img/burnoutparadise.gif",
+  "/static/img/dealwithit.gif",
+  "/static/img/eyebrows.gif",
   "/static/img/callan.gif",
   "/static/img/chocolatefrosting.gif",
   "/static/img/curran.jpg",
+  "/static/img/flyingtim.gif",
+  "/static/img/giosolder.gif",
   "/static/img/hammer1.gif",
   "/static/img/hangouts.jpg",
   "/static/img/jamesballpit.jpg",
@@ -16,6 +22,7 @@ MEMES = [
   "/static/img/nickyreneedance.gif",
   "/static/img/nyan.gif",
   "/static/img/octotim.gif",
+  "/static/img/secretabby.gif",
   "/static/img/smeritymurder.gif",
   "/static/img/thomasmouse.jpg",
   "/static/img/timnewspaper.jpg",
@@ -51,6 +58,7 @@ $(document).ready(function() {
       var pos = 0;
 
       document.addEventListener('keypress', function(e) {
+          console.log(e);
         // grumble grumble KeyboardEvent is such a mess grumble.
         var key = e.keyCode || e.charCode;
         if (key == codes[pos]) {
