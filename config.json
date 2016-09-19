@@ -5,5 +5,8 @@
     "fingerprint": [
         "js",
         "css"
-    ]
+    ],
+    "gcs-bucket-name": "hotspicyme-me",
+    "gcs-bucket-website": "Unavailable for GCS",
+    "provider": "google"
 }
