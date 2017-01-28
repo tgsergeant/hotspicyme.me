@@ -28,6 +28,27 @@ MEMES = [
   "/static/img/timnewspaper.jpg",
   "/static/img/winkben.jpg",
   "/static/img/wrongdoing.jpg",
+  
+  // NCSS 2017
+  
+  "/static/img/alex_ok_hand.gif",
+  "/static/img/brownian.gif",
+  "/static/img/dabbingintensifies.gif",
+  "/static/img/horsejames.gif",
+  "/static/img/jameswave.gif",
+  "/static/img/nikkicrowd.gif",
+  "/static/img/opendoor.gif",
+  "/static/img/owendab.gif",
+  "/static/img/owenpoint.gif",
+  "/static/img/samdance.gif",
+  "/static/img/samdoot.gif",
+  "/static/img/sandrapoint.gif",
+  "/static/img/smerityshuffle.gif",
+  "/static/img/snake.gif",
+  "/static/img/superdab.gif",
+  "/static/img/timrun.gif",
+  "/static/img/verysmart.gif",
+  "/static/img/vrplanes.gif",
 ];
 
 var oldMeme = -1;
